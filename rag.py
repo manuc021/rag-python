@@ -26,7 +26,7 @@ logger.info("Embedding uploaded PDFs into ChromaDB...")
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBJI9OS9eUuNEL8DVkhpOSZDBjAnAHnyGs")
+genai.configure(api_key="<Add your Gemini API key here>")
 model = genai.GenerativeModel(model_name="gemini-2.0-flash")
 
 # Signal handler for graceful termination
